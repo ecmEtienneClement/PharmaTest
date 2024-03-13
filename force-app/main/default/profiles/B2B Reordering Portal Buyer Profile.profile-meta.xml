@@ -71,6 +71,50 @@
         <field>Inventaire__c.Montant__c</field>
         <readable>false</readable>
     </fieldPermissions>
+      <fieldPermissions>
+        <editable>false</editable>
+        <field>Bon__c.Caution__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Bon__c.DateCaution__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Bon__c.MontantCaution__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Bon__c.MontantRestant__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Vente__c.ARembourse__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Vente__c.Deficit__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <layoutAssignments>
+        <layout>Bon__c-Bon Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Vente__c-Vente Layout</layout>
+    </layoutAssignments>
+    <tabVisibilities>
+        <tab>Bon__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Vente__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <layoutAssignments>
         <layout>AssuranceCouverture__c-Assurance Couverture Layout</layout>
     </layoutAssignments>
