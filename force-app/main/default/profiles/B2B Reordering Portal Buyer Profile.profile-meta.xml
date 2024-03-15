@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <custom>true</custom>
-    <fieldPermissions>
+       <fieldPermissions>
         <editable>false</editable>
         <field>Bon__c.Caution__c</field>
         <readable>false</readable>
@@ -31,12 +31,68 @@
         <field>Vente__c.Deficit__c</field>
         <readable>true</readable>
     </fieldPermissions>
+  
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AssuranceCouverture__c.DateDemission__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>AssuranceCouverture__c.MontantPayer__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>AssuranceCouverture__c.MontantTotal__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>AssuranceCouverture__c.PrixCumulerMedicament__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AssuranceCouverture__c.Status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Inventaire__c.Benefice__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Inventaire__c.ConsommationMoyenneMensuel__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Inventaire__c.Montant__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
     <layoutAssignments>
+        <layout>AssuranceCouverture__c-Assurance Couverture Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Inventaire__c-Inventaire Layout</layout>
+    </layoutAssignments>
+ <layoutAssignments>
         <layout>Bon__c-Bon Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Vente__c-Vente Layout</layout>
     </layoutAssignments>
+    <tabVisibilities>
+        <tab>AssuranceCouverture__c</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Inventaire__c</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+     
     <tabVisibilities>
         <tab>Bon__c</tab>
         <visibility>DefaultOn</visibility>
