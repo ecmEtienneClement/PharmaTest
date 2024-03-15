@@ -36,6 +36,79 @@
         <field>Medicaments__c.QuantiteDeContenu__c</field>
         <readable>true</readable>
     </fieldPermissions>
+     <fieldPermissions>
+        <editable>true</editable>
+        <field>AssuranceCouverture__c.DateDemission__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>AssuranceCouverture__c.MontantPayer__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AssuranceCouverture__c.MontantTotal__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AssuranceCouverture__c.PrixCumulerMedicament__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AssuranceCouverture__c.Status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Inventaire__c.Benefice__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Inventaire__c.ConsommationMoyenneMensuel__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Inventaire__c.Montant__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+     <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>AssuranceCouverture__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Inventaire__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <tabVisibilities>
+        <tab>AssuranceCouverture__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Inventaire__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <layoutAssignments>
+        <layout>AssuranceCouverture__c-Assurance Couverture Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Inventaire__c-Inventaire Layout</layout>
+    </layoutAssignments>
+   
     <layoutAssignments>
         <layout>Avoir__c-Avoir Layout</layout>
     </layoutAssignments>

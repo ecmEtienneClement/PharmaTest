@@ -31,6 +31,61 @@
         <field>Medicaments__c.PrixPublic__c</field>
         <readable>true</readable>
     </fieldPermissions>
+     <fieldPermissions>
+        <editable>true</editable>
+        <field>AssuranceCouverture__c.DateDemission__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>AssuranceCouverture__c.MontantPayer__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>AssuranceCouverture__c.MontantTotal__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>AssuranceCouverture__c.PrixCumulerMedicament__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AssuranceCouverture__c.Status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Inventaire__c.Benefice__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Inventaire__c.ConsommationMoyenneMensuel__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Inventaire__c.Montant__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <layoutAssignments>
+        <layout>AssuranceCouverture__c-Assurance Couverture Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Inventaire__c-Inventaire Layout</layout>
+    </layoutAssignments>
+
+    <tabVisibilities>
+        <tab>AssuranceCouverture__c</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Inventaire__c</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
     <fieldPermissions>
         <editable>true</editable>
         <field>Medicaments__c.QuantiteDeContenu__c</field>

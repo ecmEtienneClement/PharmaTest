@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PrixCumulerMedicament__c</fullName>
+    <description>c&apos;est le prix total cumulé des médicaments</description>
+    <externalId>false</externalId>
+    <label>Prix Cumuler Medicament</label>
+    <precision>9</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>
