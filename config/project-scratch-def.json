@@ -1,0 +1,16 @@
+{
+  "orgName": "etienne company",
+  "edition": "Developer",
+  "features": ["EnableSetPasswordInApi"],
+  "adminEmail": "tallmuhammed9@gmail.com",
+  "username": "pmtscratch@sprinttest01v2.dev",
+  "language": "en_US",  
+  "settings": {
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
+    }
+  }
+}
