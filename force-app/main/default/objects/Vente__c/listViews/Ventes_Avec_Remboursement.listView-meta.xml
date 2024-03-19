@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ventes_Avec_Remboursement</fullName>
+    <columns>NAME</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>FinVente__c</columns>
+    <columns>FondDeCaisse__c</columns>
+    <columns>Recette__c</columns>
+    <columns>Deficit__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>ARembourse__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Ventes Avec Remboursement</label>
+</ListView>

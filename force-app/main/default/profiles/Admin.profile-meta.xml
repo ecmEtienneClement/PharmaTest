@@ -31,6 +31,11 @@
         <field>Vente__c.Deficit__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Vente__c.Surplus__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Bon__c-Bon Layout</layout>
     </layoutAssignments>
