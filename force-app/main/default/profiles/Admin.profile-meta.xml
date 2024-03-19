@@ -71,6 +71,11 @@
         <field>Bon__c.MontantRestant__c</field>
         <readable>true</readable>
     </fieldPermissions>
+      <fieldPermissions>
+        <editable>true</editable>
+        <field>Vente__c.Surplus__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>Vente__c.ARembourse__c</field>
