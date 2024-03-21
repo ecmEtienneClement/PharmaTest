@@ -21,6 +21,11 @@
                 <default>false</default>
                 <label>Expiré</label>
             </value>
+            <value>
+                <fullName>Bloqué</fullName>
+                <default>false</default>
+                <label>Bloqué</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>
