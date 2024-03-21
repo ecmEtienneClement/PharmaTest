@@ -141,7 +141,7 @@
         <type>Default</type>
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
-    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayoutAssignment>AssuranceCouverture</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
     <description>Objet représentant les assurances et couvertures en coopération avec la pharmacie.</description>
     <enableActivities>false</enableActivities>
@@ -161,7 +161,18 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>AssuranceCouvertures</pluralLabel>
-    <searchLayouts></searchLayouts>
+    <searchLayouts>
+        <excludedStandardButtons>New</excludedStandardButtons>
+        <excludedStandardButtons>OpenListInQuip</excludedStandardButtons>
+        <excludedStandardButtons>NewFromDocument</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>Import</excludedStandardButtons>
+        <excludedStandardButtons>MassChangeOwner</excludedStandardButtons>
+        <searchResultsAdditionalFields>MontantTotal__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>MontantPayer__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Status__c</searchResultsAdditionalFields>
+    </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

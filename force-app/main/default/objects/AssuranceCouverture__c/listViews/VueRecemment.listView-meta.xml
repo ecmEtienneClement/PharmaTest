@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VueRecemment</fullName>
+    <columns>NAME</columns>
+    <columns>MontantTotal__c</columns>
+    <columns>MontantPayer__c</columns>
+    <columns>Status__c</columns>
+    <filterScope>Mine</filterScope>
+    <label>Vue Récemment</label>
+</ListView>
