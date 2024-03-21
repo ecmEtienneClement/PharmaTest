@@ -141,7 +141,7 @@
         <type>Default</type>
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
-    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayoutAssignment>Avoir</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
     <description>Objet représentant les avoirs relatif a la pharmacie.</description>
     <enableActivities>true</enableActivities>
@@ -162,7 +162,23 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Avoirs</pluralLabel>
-    <searchLayouts></searchLayouts>
+    <profileSearchLayouts>
+        <fields>NAME</fields>
+        <fields>Montant__c</fields>
+        <fields>Statut__c</fields>
+        <profileName>System Administrator</profileName>
+    </profileSearchLayouts>
+    <searchLayouts>
+        <excludedStandardButtons>New</excludedStandardButtons>
+        <excludedStandardButtons>OpenListInQuip</excludedStandardButtons>
+        <excludedStandardButtons>NewFromDocument</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>Import</excludedStandardButtons>
+        <excludedStandardButtons>MassChangeOwner</excludedStandardButtons>
+        <searchResultsAdditionalFields>Montant__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Statut__c</searchResultsAdditionalFields>
+    </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
