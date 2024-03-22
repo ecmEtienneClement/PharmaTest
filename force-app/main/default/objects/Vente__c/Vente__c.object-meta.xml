@@ -168,14 +168,6 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Ventes</pluralLabel>
-    <profileSearchLayouts>
-        <fields>NAME</fields>
-        <fields>CREATEDBY_USER</fields>
-        <fields>FinVente__c</fields>
-        <fields>FondDeCaisse__c</fields>
-        <fields>Recette__c</fields>
-        <profileName>System Administrator</profileName>
-    </profileSearchLayouts>
     <searchLayouts>
         <excludedStandardButtons>New</excludedStandardButtons>
         <excludedStandardButtons>OpenListInQuip</excludedStandardButtons>

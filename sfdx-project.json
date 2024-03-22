@@ -2,11 +2,19 @@
   "packageDirectories": [
     {
       "path": "force-app",
-      "default": true
+      "default": true,
+      "package": "twoPackage",
+      "versionName": "1.0.0",
+      "versionNumber": "0.1.0.NEXT",
+      "versionDescription": ""
     }
   ],
   "name": "pmtScratchV2",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "59.0"
+  "sourceApiVersion": "59.0",
+  "packageAliases": {
+    "twoPackage": "0HoWU00000006mz0AA",
+    "twoPackage@0.1.0-1": "04tWU0000000dhJYAQ"
+  }
 }
