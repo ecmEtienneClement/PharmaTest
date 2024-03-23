@@ -3,12 +3,26 @@
     {
       "path": "force-app",
       "default": true,
-     
+      "package": "allPackage",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "versionDescription": ""
+    },
+    {
+      "path": "force-app",
+      "package": "allPkg",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "default": false,
+      "versionDescription": ""
     }
   ],
   "name": "pmtScratchV2",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "59.0",
-
+  "packageAliases": {
+    "allPkg": "0HoWU00000006qD0AQ",
+    "allPkg@0.1.0-2-10": "04tWU0000000dkXYAQ"
+  }
 }
